@@ -1,7 +1,7 @@
 #minikube commands
 1)kubectl apply -f <pod-name>  --> to create pods
 2)kubect get pods  --> to get pods
-3)kubect get pods -o wide  --> to get more details of pod
+3)kubect get pods -o wide  --> to get more details of a pod
 4)kubectl describe <object> <object-name> 
 5)kubectl logs -f <pod-name>  --> to know details about running container
 6)kubectl logs -f <pod-name> -c <container-name>  --> particularly for, if more than one container is present 
