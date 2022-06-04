@@ -5,4 +5,4 @@
 4)kubectl describe <object> <object-name> 
 5)kubectl logs -f <pod-name>  --> to know details about running container
 6)kubectl logs -f <pod-name> -c <container-name>  --> particularly for, if more than one container is present 
-7)kubectl delete pod <pod-name> or kubectl delete -f <manifest-name>  --> to delete apod 
+7)kubectl delete pod <pod-name> or kubectl delete -f <manifest-name>  --> to delete a pod 
