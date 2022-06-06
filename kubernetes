@@ -1,4 +1,4 @@
-#minikube commands
+#some useful minikube commands
 1)kubectl apply -f <pod-name>  --> to create pods
 2)kubect get pods  --> to get pods
 3)kubect get pods -o wide  --> to get more details of a pod
@@ -6,3 +6,4 @@
 5)kubectl logs -f <pod-name>  --> to know details about running container
 6)kubectl logs -f <pod-name> -c <container-name>  --> particularly for, if more than one container is present 
 7)kubectl delete pod <pod-name> or kubectl delete -f <manifest-name>  --> to delete a pod 
+8)kubectl get rc--> to get repilica controller
